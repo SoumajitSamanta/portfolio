@@ -10,12 +10,12 @@ import { useEffect, useRef } from "react"
 import { AnimationAction, Group, LoopOnce, LoopRepeat } from "three"
 import { useAppContext } from "@/context/AppContext"
 
-useGLTF.preload("/robot.glb")
+useGLTF.preload("./robot.glb")
 
 export default function Model({ isMobile }: { isMobile: boolean }) {
   const group = useRef<Group>(null)
   const {  animations, scene } = useGLTF(
-    "/robot.glb"
+    "./robot.glb"
   )
   const { setIsModelLoaded } = useAppContext()
 

@@ -24,7 +24,7 @@ export default function ExperienceCard({
       } hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 cursor-pointer`}
     >
       <Image
-        src={`/images/Companies/${logo}`}
+        src={`./images/Companies/${logo}`}
         alt="logo"
         width={isMobile ? 20 : 40}
         height={isMobile ? 20 : 40}

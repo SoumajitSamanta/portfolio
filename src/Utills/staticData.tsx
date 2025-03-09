@@ -4,7 +4,7 @@ export const companies = [
     {
       name: "Digitys",
       position: "Graduate Engineer",
-      logo: "digitysllc_logo.jpeg",
+      logo: "./digitysllc_logo.jpeg",
       link: "https://www.digitys.com/",
       experience: {
         projects: [

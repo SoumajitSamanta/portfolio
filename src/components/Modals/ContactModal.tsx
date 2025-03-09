@@ -13,13 +13,13 @@ export default function ContactModal({ isOpen , setIsOpen }: { isOpen: boolean ,
                 
                 <div className="flex gap-4 justify-center mt-2">
                     <a href="https://github.com/SoumajitSamanta" rel="noopener noreferrer" target="_blank">
-                        <Image src="/images/github.svg" alt="GitHub" width={36} height={36} />
+                        <Image src="./images/github.svg" alt="GitHub" width={36} height={36} />
                     </a>
                     <a href="mailto:soumajit.samanta.123@gmail.com" rel="noopener noreferrer" target="_blank">
-                        <Image src="/images/gmail.svg" alt="Gmail" width={36} height={36} />
+                        <Image src="./images/gmail.svg" alt="Gmail" width={36} height={36} />
                     </a>
                     <a href="https://www.linkedin.com/in/soumajit-samanta-5a3428149"  rel="noopener noreferrer" target="_blank">
-                        <Image src="/images/linkedinIconDisp.svg" alt="LinkedIn" width={36} height={36} />
+                        <Image src="./images/linkedinIconDisp.svg" alt="LinkedIn" width={36} height={36} />
                     </a>
                 </div>
 

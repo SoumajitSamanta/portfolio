@@ -17,60 +17,60 @@ export default function HexaSkills() {
     <div className="h-fit w-fit ml-[40px]">
       <div className={polygonContainerClass}>
         <Polygon
-          imageUrl="/images/skills/html.svg"
+          imageUrl="./images/skills/html.svg"
           url="https://developer.mozilla.org/en-US/docs/Web/HTML"
           tooltipText="HTML"
         />
         <Polygon
-          imageUrl="/images/skills/css.svg"
+          imageUrl="./images/skills/css.svg"
           url="https://developer.mozilla.org/en-US/docs/Web/CSS"
           tooltipText="CSS"
         />
         <Polygon
-          imageUrl="/images/skills/javascript.svg"
+          imageUrl="./images/skills/javascript.svg"
           url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           tooltipText="JavaScript"
         />
       </div>
       <div className={polygonContainerClass}>
         <Polygon
-          imageUrl="/images/skills/java.svg"
+          imageUrl="./images/skills/java.svg"
           url="https://www.java.com/en/"
           tooltipText="Java"
         />
         <Polygon
-          imageUrl="/images/skills/android.svg"
+          imageUrl="./images/skills/android.svg"
           url="https://www.android.com/intl/en_in/"
           tooltipText="Android"
         />
       </div>
       <div className={polygonContainerClass}>
         <Polygon
-          imageUrl="/images/skills/angular.svg"
+          imageUrl="./images/skills/angular.svg"
           url="https://angular.dev/"
           tooltipText="Angular"
         />
         <Polygon
-          imageUrl="/images/skills/typescriptLogoDisp.svg"
+          imageUrl="./images/skills/typescriptLogoDisp.svg"
           url="https://www.typescriptlang.org/"
           tooltipText="TypeScript"
         />
        <Polygon
-          imageUrl="/images/skills/react.svg"
+          imageUrl="./images/skills/react.svg"
           url="https://react.dev/"
           tooltipText="React"
         />
       </div>
       <div className={polygonContainerClass}>
       <Polygon
-          imageUrl="/images/skills/github.svg"
+          imageUrl="./images/skills/github.svg"
           url="https://github.com/PaulSpaurgen"
           tooltipText="GitHub"
         />
         <Polygon
-          imageUrl="/images/skills/mongodb.svg"
-          url="https://www.mongodb.com/"
-          tooltipText="MongoDB"
+          imageUrl="./images/skills/nextjs.svg"
+          url="https://nextjs.org/"
+          tooltipText="Next Js"
         />
       </div>
     </div>

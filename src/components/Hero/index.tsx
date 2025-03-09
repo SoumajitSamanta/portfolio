@@ -71,8 +71,8 @@ export default function Hero() {
     <div className="flex  h-screen  w-full relative z-10 overflow-hidden bg-black ">
       
       <video
-        src="/video/bgVideoMain.webm"
-        poster="/images/poster.webp"
+        src="./video/bgVideoMain.webm"
+        poster="./images/poster.webp"
         autoPlay
         muted
         playsInline

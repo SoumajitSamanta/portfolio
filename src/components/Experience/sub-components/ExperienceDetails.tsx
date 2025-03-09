@@ -43,7 +43,7 @@ export default function ExperienceDetails({
       <div ref={ref}>
         <div className="flex gap-4 border-b border-cyan-500 pb-4">
           <Image
-            src={`/images/Companies/${logo}`}
+            src={`./images/Companies/${logo}`}
             alt="logo"
             width={40}
             height={40}
@@ -60,7 +60,7 @@ export default function ExperienceDetails({
                 rel="noopener noreferrer"
                 className="md:text-2xl text-xl font-bold  hover:text-cyan-400 transition-all duration-300 flex items-center gap-2"
               >
-                {company} <span className="text-cyan-400"><Image src="/images/link.svg" alt="LinkedIn" width={16} height={16} /></span>
+                {company} <span className="text-cyan-400"><Image src="./images/link.svg" alt="LinkedIn" width={16} height={16} /></span>
               </a>
             <h1 className="md:text-sm text-xs ">{position}</h1>
           </div>
@@ -77,7 +77,7 @@ export default function ExperienceDetails({
                 rel="noopener noreferrer"
                 className="md:text-2xl text-xl font-bold  hover:text-cyan-400 transition-all duration-300 flex items-center gap-2"
               >
-                {project.name} <span className="text-cyan-400"><Image src="/images/link.svg" alt="LinkedIn" width={16} height={16} /></span>
+                {project.name} <span className="text-cyan-400"><Image src="./images/link.svg" alt="LinkedIn" width={16} height={16} /></span>
               </a>
               <div className="flex gap-2 flex-wrap mt-4">
                 <ul className="ml-4">
