@@ -70,7 +70,7 @@ export default function Nav({ activeIndex }: NavProps) {
             onMouseOut={onmouseoutEvent}
           >
             <a
-              href="https://drive.google.com/file/d/1Zw-_SnHmUQjUDe6c0SECf3kgCn-Z0CkM/view?usp=sharing"
+              href="https://drive.google.com/file/d/10IRI5etyvpLvYbzk_szKD7_rgVQ-bUQl/view"
               target="_blank"
             >
               <h1>Resume</h1>

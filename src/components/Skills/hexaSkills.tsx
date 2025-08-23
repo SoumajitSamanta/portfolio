@@ -73,6 +73,23 @@ export default function HexaSkills() {
           tooltipText="Next Js"
         />
       </div>
+      <div className={polygonContainerClass}>
+      <Polygon
+          imageUrl="./images/skills/ionic.svg"
+          url="https://ionicframework.com/"
+          tooltipText="Ionic Framework"
+        />
+         <Polygon
+          imageUrl="./images/skills/Spring_Boot.svg"
+          url="https://spring.io/projects/spring-boot"
+          tooltipText="Spring Boot"
+        />
+         <Polygon
+          imageUrl="./images/skills/nebular.svg"
+          url="https://akveo.github.io/nebular/"
+          tooltipText="Nebular"
+        />
+      </div>
     </div>
   );
 }

@@ -11,7 +11,7 @@ import { useAppContext } from "@/context/AppContext";
 import Skills from "@/components/Skills";
 import LoadingWrap from "@/components/LoadingWrap";
 
-const Hero = dynamic(() => import("@/components/Hero"), {
+const Hero = dynamic(() => import("@/components/Home"), {
   ssr: false,
 });
 const Experience = dynamic(() => import("@/components/Experience"), {

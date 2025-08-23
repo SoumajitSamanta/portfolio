@@ -5,7 +5,7 @@ import { splitTextAnimation } from "@/Utills/commonUtills";
 import { useAppContext } from "@/context/AppContext";
 
 const expText = [
-  "Frontend Developer.",
+  "Full-Stack Developer.",
   "Android Developer.",
   "Software Engineer.",
 ];
@@ -99,7 +99,7 @@ export default function Hero() {
             </h1>
           </div>
           <p className="text-white text-sm md:text-base md:mt-4 md:max-w-[600px] max-w-[250px] md:font-semibold ">
-          I'm a software engineer with experience in both web and Android development. Passionate about creating functional and user-friendly applications, I continuously strive to enhance my skills and deliver high-quality solutions that bring ideas to life.
+          I'm a software engineer with experience in Full-Stack and Hybrid Mobile Application development. Passionate about creating functional and user-friendly applications, I continuously strive to enhance my skills and deliver high-quality solutions that bring ideas to life.
           </p>
         </div>
       </div>
