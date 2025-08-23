@@ -71,13 +71,13 @@ export default function Hero() {
     <div className="flex  h-screen  w-full relative z-10 overflow-hidden bg-black ">
       
       <video
-        src="./video/bgVideoMain.webm"
-        poster="./images/poster.webp"
+        src="./video/bgVideo.webm"
+        poster="./images/bg.png"
         autoPlay
         muted
         playsInline
         loop
-        className="absolute top-[30%] left-0 w-full h-full object-cover z-[-1px]"
+        className="absolute left-0 w-full h-full object-cover z-[-1px]"
         preload="auto"
       />
       <div className=" mx-auto md:max-w-[80%] max-w-[90%]  w-full ">
