@@ -31,12 +31,13 @@ export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
+    const isMobile = window.innerWidth < 768;
     const swiperInstance = new Swiper(".swiper", {
       modules: [Mousewheel, EffectCube],
       direction: "vertical",
       slidesPerView: 1,
       spaceBetween: 0,
-      mousewheel: true,
+      mousewheel: !isMobile,
       effect: "cards",
       grabCursor: true,
       speed: 1000,
