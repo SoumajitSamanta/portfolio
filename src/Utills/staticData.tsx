@@ -2,10 +2,10 @@ import { link } from "fs";
 
 export const companies = [
     {
-      name: "Digitys",
+      name: "PTS Consulting Services",
       position: "Graduate Engineer",
-      logo: "./digitysllc_logo.jpeg",
-      link: "https://www.digitys.com/",
+      logo: "./pts.jpeg",
+      link: "https://www.ptscservices.com/",
       experience: {
         projects: [
           {
