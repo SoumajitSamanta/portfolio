@@ -59,7 +59,7 @@ export const companies = [
           name: "Quintrx GPS(Global Payroll System)",
           link: "https://quintrxgps.com/",
           technologies: [
-            "Angular JS",
+            "Angular 16",
             "Nebular",
             "TypeScript",
             "Ionic Cordova Plugins",
